@@ -1,0 +1,79 @@
+body {
+margin: 0 40px 0;
+}
+.header {
+  font-family: 'Sawarabi Mincho', sans-serif;
+
+  background-image: url("akaibi-ru.jpg");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+
+
+}
+.main {
+  height: 100px;
+  background-color: blue;
+
+}
+.footer {
+  height: 100px;
+  background-color: pink;
+}
+.header {
+  color: black;
+
+}
+.text1 {
+  font-size: 40px;
+  position: absolute;
+  left: 300px;
+  top: 260px;
+
+
+}
+.text2 {
+  font-size: 20px;
+  position: absolute;
+  top: 330px;
+  left: 590px;
+}
+ .text1,.text2 p {
+    text-shadow: 3px 3px 3px gold;
+}
+.header-container {
+  display: flex;
+  font-family: 'Noto Serif JP', serif;
+  background-color: #CC0000;
+
+
+}
+.header-contents ul {
+  display: flex;
+  list-style: none;
+}
+.header-contents li {
+  margin-left: 100px;
+}
+.header-left  {
+font-size: 30px;
+margin-left: 60px;
+margin-right: 100px;
+}
+.header-contents span {
+  display: flex;
+  
+align-items: center;
+justify-content: center;
+}
+.header-contents span:before, .header-contents span:after {
+  border-top: 1px solid;
+  content: "";
+  width:3em;
+}
+.header-contents span:before {
+  margin-right: 1em;
+}
+.header-contents span:after {
+  margin-left: 1em;
+}
