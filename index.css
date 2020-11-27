@@ -13,7 +13,10 @@ margin: 0 40px 0;
 }
 .main {
   height: 100px;
-  background-color: blue;
+  background-color:yellow;
+  text-align: center;
+  line-height: 100px;
+
 
 }
 .footer {
