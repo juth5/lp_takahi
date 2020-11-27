@@ -42,9 +42,8 @@ margin: 0 40px 0;
     text-shadow: 3px 3px 3px gold;
 }
 .header-container {
-  display: flex;
   font-family: 'Noto Serif JP', serif;
-  background-color: #CC0000;
+  display: flex;
 
 
 }
@@ -76,4 +75,9 @@ justify-content: center;
 }
 .header-contents span:after {
   margin-left: 1em;
+}
+
+.list {
+  display: flex;
+  
 }
