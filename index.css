@@ -17,8 +17,11 @@ margin: 0 40px 0;
 
 }
 .footer {
-  height: 100px;
   background-color: pink;
+  display:flex;
+  justify-content: space-around;
+  line-height: 100px;
+  align-items: center;
 }
 .header {
   color: black;
